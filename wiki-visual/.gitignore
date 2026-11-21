@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.sql
+*.sql.gz
+*.db
+*.sqlite
+.DS_Store

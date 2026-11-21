@@ -1,7 +1,7 @@
 // ---------- КОНФИГУРАЦИЯ ----------
 const SQLITE_DB = 'simplewiki.db';
-const PG_CONNECTION =
-    'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+require('dotenv').config();
+const PG_CONNECTION = process.env.DATABASE_URL;
 
 
 
